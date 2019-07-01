@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "814587540639",
+    "firebase_url": "https://fixturewc18.firebaseio.com",
+    "project_id": "fixturewc18",
+    "storage_bucket": "fixturewc18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814587540639:android:c7f26782fc0fe428",
+        "android_client_info": {
+          "package_name": "com.hussain.fixturewc18"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814587540639-u1fplmfk161li7j4p1ghid9cgfs41ap6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "814587540639-u1fplmfk161li7j4p1ghid9cgfs41ap6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMARgqQU_Ed--6OBiSQn7F_URHp9x19gk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activies.TeamGroup"
+    android:gravity="center">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/toolbar_background">
+        <TextView
+            android:id="@+id/group_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GROUPS"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/ToolbarColor" />
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    style="@style/GroupCard"
+                    app:cardCornerRadius="2dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/groupA"
+                            style="@style/CardItem"
+                            android:text="Group A"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/russia"
+                            style="@style/CardItem"
+                            android:text="Russia" />
+
+                        <TextView
+                            android:id="@+id/soudiArabia"
+                            style="@style/CardItem"
+                            android:text="Soudi Arabia" />
+
+                        <TextView
+                            android:id="@+id/egypt"
+                            style="@style/CardItem"
+                            android:text="Egypt" />
+
+                        <TextView
+                            android:id="@+id/uruguay"
+                            style="@style/CardItem"
+                            android:text="Uruguay" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    style="@style/GroupCard"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/groupB"
+                            style="@style/CardItem"
+                            android:text="Group B"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/portugal"
+                            style="@style/CardItem"
+                            android:text="Portugal" />
+
+                        <TextView
+                            android:id="@+id/spain"
+                            style="@style/CardItem"
+                            android:text="Spain" />
+
+                        <TextView
+                            android:id="@+id/morocco"
+                            style="@style/CardItem"
+                            android:text="Morocco" />
+
+                        <TextView
+                            android:id="@+id/iran"
+                            style="@style/CardItem"
+                            android:text="Iran" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    style="@style/GroupCard"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/groupC"
+                            style="@style/CardItem"
+                            android:text="Group C"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/france"
+                            style="@style/CardItem"
+                            android:text="France" />
+
+                        <TextView
+                            android:id="@+id/australia"
+                            style="@style/CardItem"
+                            android:text="Australia" />
+
+                        <TextView
+                            android:id="@+id/peru"
+                            style="@style/CardItem"
+                            android:text="Peru" />
+
+                        <TextView
+                            android:id="@+id/denmark"
+                            style="@style/CardItem"
+                            android:text="Denmark" />
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    style="@style/GroupCard"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/groupD"
+                            style="@style/CardItem"
+                            android:text="Group D"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/argentina"
+                            style="@style/CardItem"
+                            android:text="Argentina" />
+
+                        <TextView
+                            android:id="@+id/iceland"
+                            style="@style/CardItem"
+                            android:text="Iceland" />
+
+                        <TextView
+                            android:id="@+id/croatia"
+                            style="@style/CardItem"
+                            android:text="Croatia" />
+
+                        <TextView
+                            android:id="@+id/nigeria"
+                            style="@style/CardItem"
+                            android:text="Nigeria" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    style="@style/GroupCard"
+                    app:cardCornerRadius="2dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/groupE"
+                            style="@style/CardItem"
+                            android:text="Group E"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/brazil"
+                            style="@style/CardItem"
+                            android:text="Brazil" />
+
+                        <TextView
+                            android:id="@+id/switzerland"
+                            style="@style/CardItem"
+                            android:text="Switzerland" />
+
+                        <TextView
+                            android:id="@+id/costaRica"
+                            style="@style/CardItem"
+                            android:text="Costa Rica" />
+
+                        <TextView
+                            android:id="@+id/serbia"
+                            style="@style/CardItem"
+                            android:text="Serbia" />
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    style="@style/GroupCard"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/groupF"
+                            style="@style/CardItem"
+                            android:text="Group F"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/germany"
+                            style="@style/CardItem"
+                            android:text="Germany" />
+
+                        <TextView
+                            android:id="@+id/mexico"
+                            style="@style/CardItem"
+                            android:text="Mexico" />
+
+                        <TextView
+                            android:id="@+id/sweden"
+                            style="@style/CardItem"
+                            android:text="Sweden" />
+
+                        <TextView
+                            android:id="@+id/koreaRepublic"
+                            style="@style/CardItem"
+                            android:text="Korea Republic" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    style="@style/GroupCard"
+                    app:cardCornerRadius="2dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/groupG"
+                            style="@style/CardItem"
+                            android:text="Group G"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/belgium"
+                            style="@style/CardItem"
+                            android:text="Belgium" />
+
+                        <TextView
+                            android:id="@+id/panama"
+                            style="@style/CardItem"
+                            android:text="Panama" />
+
+                        <TextView
+                            android:id="@+id/tunisia"
+                            style="@style/CardItem"
+                            android:text="Tunisia" />
+
+                        <TextView
+                            android:id="@+id/england"
+                            style="@style/CardItem"
+                            android:text="England" />
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    style="@style/GroupCard"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/groupH"
+                            style="@style/CardItem"
+                            android:text="Group H"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/poland"
+                            style="@style/CardItem"
+                            android:text="Poland" />
+
+                        <TextView
+                            android:id="@+id/senegal"
+                            style="@style/CardItem"
+                            android:text="Senegal" />
+
+                        <TextView
+                            android:id="@+id/colombia"
+                            style="@style/CardItem"
+                            android:text="Colombia" />
+
+                        <TextView
+                            android:id="@+id/japan"
+                            style="@style/CardItem"
+                            android:text="Japan" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
